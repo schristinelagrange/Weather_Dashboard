@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    background-color:lightskyblue;
+    color: white;
+    padding: 15px;
+}
+
+body {
+    font-size: 24px;
+    margin-left: 25px;
+}
+
+.searchTitle{
+    margin-top: 25px;
+
+}
+
+.citySearch{
+    height: 25px;
+    width: 250px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+
+button {
+    width: 100px;
+}
+
+.output{
+    position: absolute;
+    top: 250px;
+    left: 25px;
+    background-color: lightblue;
+}
+
+.container {
+    border-style: solid;
+    min-height: 100px;
+    min-width: 50%;
+    position: absolute;
+    left: 300px;
+    top: 140px;
+    border-radius: 5px;
+}
+    
+    
