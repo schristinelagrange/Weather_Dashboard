@@ -32,8 +32,9 @@ button {
 .output{
     position: absolute;
     top: 250px;
-    left: 25px;
+    
     background-color: lightblue;
+    list-style-type: none;
 }
 
 .container {
