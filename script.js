@@ -4,6 +4,10 @@ var search = document.querySelector(".search");
 var weather = document.getElementById("container");
 
 
+
+
+// Display Searched Cities
+
 var cities = [];
 
 function listCities() {
@@ -43,6 +47,29 @@ search.addEventListener("click", function(event) {
 });
 
 save();
+
+
+//Display Weather for searched cities
+
+search.addEventListener("click", getWeather) 
+
+function getWeather() {
+
+    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=a4b4716e88cadb45fae714953c38bd2c";
+    var city = input.value;
+    fetch(queryURL)
+    .then(response => response.json())
+    .then(data => console.log(data))
+    
+
+
+
+
+    
+
+
+};
+
 
 
 

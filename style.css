@@ -27,13 +27,13 @@ body {
 
 button {
     width: 100px;
+    
 }
 
 .output{
     position: absolute;
     top: 250px;
     
-    background-color: lightblue;
     list-style-type: none;
 }
 
@@ -48,3 +48,10 @@ button {
 }
     
     
+.output li {
+    background-color: lightblue;
+    margin: 7px;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+}
